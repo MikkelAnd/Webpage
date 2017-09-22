@@ -1,5 +1,103 @@
-
 * {
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*Front page styling*/
+
+#frontpage {
+    /*Background on frontpage*/
+    
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.40)), 
+    url(images/MikkelHome.jpg);
+    
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+    background-size: cover;
+    max-width: 100%;
+    
+    /*Text alignment*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.pixeloverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top 0;
+    left 0;
+    background: url(images/pattern.png);
+    
+}
+
+.hometext {
+    color: white;
+    letter-spacing: 4px;
+    line-height: 50px;
+    z-index: 1;
+    
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 15px;
+    
+}
+
+h2 {
+    font-weight: 200;
+}
+
+/*Nav styling*/
+
+nav {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #222;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+nav ul li {
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    list-style-type: none;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    padding: 30px;
+}
+
+a:hover {
+    color: darkkhaki;
+    transition: 0.3s;
+}
+
+/*About styling*/
+
+
+
+#about
