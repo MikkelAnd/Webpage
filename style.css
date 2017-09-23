@@ -51,6 +51,7 @@ h2 {
 }
 
 
+
 /*Nav styling*/
 
 nav {
@@ -59,7 +60,7 @@ nav {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #222;
+    background-color: #181818;
     padding: 0.5em 0;
 }
 
@@ -81,23 +82,73 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    transition: 0.3s;
-    padding: 30px;
+    /*transition: 0.3s;*/
+    padding: 5px;
+    font-size: 1em;
+    letter-spacing: 3px;
 }
 
+/*
 a:hover {
-    color: #A0C2E4;
+    color: #858585;
     transition: 0.3s;
 }
+*/
 
 .icon
 {
-    height: 30px;
+    height: 45px;
     float: left;
-    margin: 20px;
     transform: translateY(-50%);
+}
+
+/* Nav effect styling */
+nav a{
+	position: relative;
+	display: inline-block;
+	outline: none;
+	color: #858585;
+	text-decoration: none;
+	font-weight: 200;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1em;
+}
+
+nav a:hover,
+nav a:focus {
+	outline: none;
+}
+
+.hover_effect a::after{
+    position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background: #858585;
+	content: '';
+	opacity: 0;
+	-webkit-transition: height 0.3s, opacity 0.3s, 
+    -webkit-transform 0.3s;
+	-moz-transition: height 0.3s, opacity 0.3s, 
+    -moz-transform 0.3s;
+	transition: height 0.3s, opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(-10px);
+	-moz-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.hover_effect a:hover::after,
+.hover_effect a:focus::after {
+	height: 1px;
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
 }
 
 /*About styling*/
 
-#about
+h3 {
+    
+}
