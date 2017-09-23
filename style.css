@@ -7,26 +7,22 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+
 /*Front page styling*/
 
 #frontpage {
     /*Background on frontpage*/
-    
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.40)), 
-    url(images/MikkelHome.jpg);
-    
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.40)), url(images/MikkelHome.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     box-sizing: border-box;
     background-size: cover;
     max-width: 100%;
-    
     /*Text alignment*/
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    
 }
 
 .pixeloverlay {
@@ -36,7 +32,6 @@ body {
     top 0;
     left 0;
     background: url(images/pattern.png);
-    
 }
 
 .hometext {
@@ -44,18 +39,17 @@ body {
     letter-spacing: 4px;
     line-height: 50px;
     z-index: 1;
-    
 }
 
 h1 {
     font-size: 40px;
     letter-spacing: 15px;
-    
 }
 
 h2 {
     font-weight: 200;
 }
+
 
 /*Nav styling*/
 
@@ -73,6 +67,7 @@ nav ul {
     display: flex;
     list-style: none;
     justify-content: center;
+    
 }
 
 nav ul li {
@@ -81,7 +76,6 @@ nav ul li {
     padding-bottom: 0.5em;
     padding-left: 1em;
     list-style-type: none;
-    
 }
 
 nav ul li a {
@@ -96,8 +90,14 @@ a:hover {
     transition: 0.3s;
 }
 
+.icon
+{
+    height: 30px;
+    float: left;
+    margin: 20px;
+    transform: translateY(-50%);
+}
+
 /*About styling*/
-
-
 
 #about
