@@ -11,7 +11,7 @@ body {
 
 #frontpage {
     /*Background on frontpage*/
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.40)), url(images/MikkelHome.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.40)), url(images/Mac_Home.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     box-sizing: border-box;
@@ -74,13 +74,11 @@ h2 {
 {
     display: block;
     text-align: center;
-    bottom: 80px;
+    bottom: 190px;
     position: absolute;
     width: 100%;
     left:0;
 }
-
-/*6569*/
 
 .arrow 
 {
