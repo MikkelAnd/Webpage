@@ -101,6 +101,7 @@ h2 {
 
 nav {
     position: relative;
+    height: 50px;
     width: 100vw; 
     max-width: 100%;
     top: 0;
@@ -225,6 +226,8 @@ nav a:focus {
 {
     display: flex;
     justify-content: center;
+    height 100vh;
+    padding-top: 50px;
 }
 
 .about_text
