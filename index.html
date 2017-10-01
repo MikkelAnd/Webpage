@@ -2,20 +2,24 @@
 <html lang="en">
 
 <head>
+    
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,400" rel="stylesheet">
-
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="jquery.sticky.js"></script>
+    <script src="script.js"></script>
+    
     <title>Mikkel Andersen</title>
 </head>
 
 <body>
 
     <section id="frontpage">
-        
+
         <div class="pixeloverlay">
         </div>
         <div class="hometext">
@@ -23,16 +27,17 @@
             <h1>SOFTWARE DEVELOPER</h1>
             <h2>on a mission to create meaningfull software</h2>
         </div>
-        
+
         <div id="arrow_container">
-        <a id="arrow_anchor" href="#about"><img class="arrow" src="images/down-arrow.svg"></a>
+            <a id="arrow_anchor" href="#about"><img class="arrow" src="images/down-arrow.svg"></a>
         </div>
-        
+
     </section>
+    <div class="navigation">
     <nav class="hover_effect">
-     
-      <img class="icon" src="images/MA_icon2.png">
-   
+
+        <img class="icon" src="images/MA_icon2.png">
+
         <ul>
             <li>
                 <a href="#frontpage">Home</a>
@@ -48,17 +53,35 @@
             </li>
         </ul>
     </nav>
+    </div>
     <section id="about">
-        <h3>About me</h3>
-        <p>I am Mikkel</p>
+       
+       
+       
+        <div class="about_content">
+            <img class="profile_picture" src="images/Profile_Full.jpg" alt="profile_picture">
+            <div class="profile_content">
+                <h3 class="about_text">ABOUT</h3>
+                <hr>
+                <br>
+                <h4 class="about_text">Who I am</h4>
+                <p class="about_text">My name is Mikkel Andersen, born in May, 1995. I originate from a small city at the outskirts of the Danish capital, Copenhagen. </p>
+                <br>
+                <p class="about_text">I am a newcomer to the field of coding and software development. Coding requires a creative mindset and brings an interlectual challenge which I find satisfying.
+                </p>
+                <br>
+                <h4 class="about_text">What I do</h4>
+                <p class="about_text">Currently, I study a <a class="reference_ITU" href="https://en.itu.dk/programmes/bsc-programmes/software-development" target="_blank">bachelor's degree in Software Development at the IT University of Copenhagen</a>. In the courses, I am taught classic computer science which includes programming languages such as; Java, C, C# and F#. In addition, I am taught how to properly implement complex data structures while applying advanced algorithms for optimzed performance. The courses also include database mangement and database structure, advanced quering in MySQL and how to secure systems from mallicious adversaries. While the primary focus of the education concerns back-end, other aspects of IT like user-centered design and business processes and management are also topics in great concern. </p>
+            </div>
+        </div>
     </section>
 
     <section id="projects">
-
+   <p>Hej hej hej</p>
     </section>
     
     <section id="Contact">
-        
+
     </section>
 </body>
 
