@@ -7,11 +7,22 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+/*Marking text styling*/
+::selection 
+{
+  background: #92C575; 
+}
+
+::-moz-selection 
+{
+  background: #92C575; 
+}
+
 /*Front page styling*/
 
 #frontpage {
     /*Background on frontpage*/
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.40)), url(images/Mac_Home.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.40)), url(images/Home_Compressed.jpg);
     background-repeat: no-repeat;
     height: 100vh;
     box-sizing: border-box;
@@ -176,6 +187,47 @@ nav a:focus {
 
 /*About styling*/
 
-h3 {
-    
+
+.profile_picture
+{
+    height: 400px;
+    display: flex;
+    align-content: center;
+}
+
+.reference_ITU
+{
+    text-decoration: none;
+    color: black;
+    transition: 0.8s;
+}
+.reference_ITU:hover
+{
+    transition: 0.2s;
+    color: #92C575;
+}
+
+.about_content
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 50%;
+    align-items: center;
+}
+
+.profile_content
+{
+    padding: 70px;
+}
+
+#about
+{
+    display: flex;
+    justify-content: center;
+}
+
+.about_text
+{
+    line-height: 28px;
 }
